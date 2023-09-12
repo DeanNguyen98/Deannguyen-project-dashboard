@@ -1,0 +1,86 @@
+:root {
+    --main-bg: #fefefe;
+    --font-main: rgb(0, 0 , 0, 0.7);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    display: grid; 
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+
+}
+
+#dashboard-ctn {
+    min-width: 250px;
+    background-color: burlywood;
+    
+
+}
+
+#logo {
+    padding: 40px;
+    font-size: 20px;
+    color: var(--font-main);
+    font-weight: bold;
+    display: flex;
+}
+
+#main-img {
+    width: 50px;
+    padding-right: 7px;
+}
+
+.logo-img {
+    width: 30px;
+    padding-right: 7px;
+}
+
+
+.item-ctn ul {
+    display: grid;
+    grid-gap: 20px;
+    list-style-type: none;
+    
+
+}
+
+.item-ctn li {
+    color: var(--font-main);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.item-ctn li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#main-content-ctn {
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+#header-ctn {
+    min-height: 200px;
+    background-color: #DEDEDE;
+}
+
+#content-ctn {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-width: 500px;
+}
+
+#card-ctn {
+    background-color: var(--main-bg);
+}
+
