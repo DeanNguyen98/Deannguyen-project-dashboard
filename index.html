@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -11,7 +14,7 @@
 
         <div id="dashboard-ctn">
             <div id="logo">
-                <img class="logo-img" id="main-img" alt="logo-img" src="images/github.svg">
+                <a href="https://github.com/DeanNguyen98"><img class="logo-img" id="main-img" alt="logo-img" src="images/github.svg"></a>
                 <h3>Dashboard</h3>
             
             </div>
@@ -41,28 +44,134 @@
 
             <div id="header-ctn">
 
+                <div id="header-top">
+                    <input type="text" placeholder="What would you like to look for today?">
+
+                    <div>
+                    <img class="logo-img" alt="bell" src="images/bell-circle.svg">
+
+                    <div class="profile-img"></div>
+
+                    <h3>Dean Nguyen</h3>
+
+                    </div>
+                </div>
+
+                <div id="header-bottom">
+
+                    <div id="header-btm-left">
+
+                        <div class="profile-img" id="image-1"></div>
+
+                        <div>
+                            <p>Hi there,</p>
+                            <h3>Dean Nguyen(@Deannguyen98)</h3>
+                        </div>
+
+                    </div>
+
+                    <div id="header-btm-right">
+                        <button class="header-btn">News</button>
+                        <button class="header-btn">Upload</button>
+                        <button class="header-btn">Share</button>
+
+                    </div>
+
+                    
+
+
+
+                </div>
+
 
             </div>
     
             <div id="content-ctn">
     
-                <div id="card-ctn">
+                <div id="left-content">
+                    <h3> My Project</h3>
 
-                    <div class="card"></div>
+                    <div id="card-container">
 
-                    <div class="card"></div>
+                        <a href="https://github.com/DeanNguyen98/Rock-paper-scissors-game" target="_blank" rel="noopener noreferrer"><div class="card">
+                            <img class="card-img" src="images/rock-paper-scissors.png">
+                            <p>Rock-paper-scissors project, my first steps into Javascript</p>
 
-                    <div class="card"></div>
+                        </div></a>
 
-                    <div class="card"></div>
+                    <a href="https://github.com/DeanNguyen98/Calculator" target="_blank" rel="noopener noreferrer"><div class="card">
 
-                    <div class="card"></div>
+                        <img src="images/calculator.png">
+                        <p>This project is a part of The Odin Project Curriculum. It's the final assignment for their Foundation Course. Hence this is the biggest project I've made out of the three(Rock ,Paper, Scissors game and Etch-a-sketch)</p>
 
-                    <div class="card"></div>
+                    </div></a>
+
+                    <a href="https://github.com/DeanNguyen98/Etch-a-sketch-project" target="_blank" rel="noopener noreferrer"><div class="card">
+
+                        <img src="images/etch-a-sketch.png">
+
+                        <p>Etch-a-sketch game created using HTML, CSS and Javascript. This project is where I learn to separating addEventListener from function to avoid javascript error and adding element to DOM tree using javascript.
+                            </p>
+                    </div></a>
+
+                    <a href="https://github.com/DeanNguyen98/OdinProject-sign-up-Form" target="_blank" rel="noopener noreferrer"><div class="card">
+
+                        <img src="images/sign-up.png">
+
+                        <p>Manually created sign-up form using CSS and flexbox styling.</p>
+                    </div></a>
+
+                    </div>
+
+                    
 
                 </div>
 
-                <div id="sidebar-ctn">
+                <div id="right-ctn">
+
+                    <div id="announcement-ctn">
+                        <p>Annoucement</p>
+                        <div class="announcement">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</div>
+                        <div class="announcement">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</div>
+                        <div class="announcement">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</div>
+                    </div>
+
+                    <div id="trending-ctn">
+                        <p>Trending</p>
+                        <div class="trending trend1">
+                            
+                            <img src="images/LD.jpg">
+                            <div>
+                                <p>@PilatesGuru</p>
+                                <p class="description">Annoying cat lady 1</p>
+                            </div>
+                            
+
+                        </div>
+                        <div class="trending trend1">
+                            
+                            <img src="images/hd.jpg">
+                            <div>
+                                <p>@Catloverxoxo</p>
+                                <p class="description">Annoying cat lady 2</p>
+                            </div>
+                            
+
+                        </div>
+                        <div class="trending trend1">
+                            
+                            <img src="images/kr.jpg">
+                            <div>
+                                <p>@ComputerGuy</p>
+                                <p class="description">Your generic IT guy</p>
+                            </div>
+                            
+
+                        </div>
+
+
+                        </div>
+                    </div>
 
                 </div>
     
