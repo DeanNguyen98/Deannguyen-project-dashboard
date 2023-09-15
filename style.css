@@ -108,11 +108,11 @@ body {
     margin-top: 15px;
     margin-left: 3vh;
     border-radius: 7px;
-    border: 1px solid black;
+    border: none;
+    background-color: #E2E8F0;
 }
 
 #header-top input[type="text"]:focus {
-    border: 1px solid black;
     outline: none;
 }
 
@@ -255,12 +255,15 @@ body {
 #announcement-ctn {
     width: 70%;
     height: 40vh;
-    margin: 40px 30px;
+    margin: 30px 30px;
+    margin-top:90px;
     background-color:#FEFEFE;
     overflow: hidden;
-    padding: 30px;
+    padding: 5px 30px;
     border-radius: 8px;
-    align-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
    
 }
 
